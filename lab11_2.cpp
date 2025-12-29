@@ -12,8 +12,8 @@ int drawCard(){
 
 
 int calScore(int x, int y, int z) {
-    int playerScore = cardScores[x] + cardScores[y] + cardScores[z];
-    return playerScore % 10; 
+    int sum = cardScores[x] + cardScores[y] + cardScores[z];
+    return sum % 10; 
 }
 
 int findYugiAction(int s){	
